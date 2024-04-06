@@ -1,56 +1,93 @@
-//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+
 [
     {
-        "name": "Toggle",
+        "name": "Air Dash",
         "type": "toggle",
-        "img": "images/items/toggle.png",
-        "codes": "toggle"
+        "img": "images/items/air_dash.png",
+        "codes": "airDash"
     },
     {
-        "name": "Progressive",
-        "type": "progressive",
-        "allow_disabled": true,
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "img": "images/items/progressive.png",
-                "codes": "progressive",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/items/progressive_2.png",
-                "codes": "progressive_2",
-                "inherit_codes": false
-            }
-        ]
+        "name": "Air Jump",
+        "type": "toggle",
+        "img": "images/items/air_jump.png",
+        "codes": "airJump"
     },
     {
-        "name": "Consumable",
-        "type": "consumable",
-        "img": "images/items/consumable.png",
-        "max_quantity": 8,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 1,
-        "overlay_background": "#000000",
-        "overlay_font_size": 8,
-        "codes": "consumable"
+        "name": "Bunny Amulet",
+        "type": "toggle",
+        "img": "images/items/bunny_amulet.png",
+        "codes": "bunnyAmulet"
     },
     {
-        "name": "Progressive Toggle",
-        "type": "progressive_toggle",
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "img": "images/items/progressive.png",
-                "codes": "progressive_toggle",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/items/progressive_2.png",
-                "codes": "progressive_toggle_2",
-                "inherit_codes": false
-            }
-        ]
+        "name": "Bunny Strike",
+        "type": "toggle",
+        "img": "images/items/bunny_strike.png",
+        "codes": "bunnyStrike"
+    },
+    {
+        "name": "Bunny Whirl",
+        "type": "toggle",
+        "img": "images/items/bunny_whirl.png",
+        "codes": "bunnyWhirl"
+    },
+    {
+        "name": "Carrot Bomb",
+        "type": "toggle",
+        "img": "images/items/carrot_bomb.png",
+        "codes": "carrotBomb"
+    },
+    {
+        "name": "Carrot Shooter",
+        "type": "toggle",
+        "img": "images/items/carrot_shooter.png",
+        "codes": "carrotShooter"
+    },
+    {
+        "name": "Fire Orb",
+        "type": "toggle",
+        "img": "images/items/fire_orb.png",
+        "codes": "fireOrb"
+    },
+    {
+        "name": "Hammer Roll",
+        "type": "toggle",
+        "img": "images/items/hammer_roll.png",
+        "codes": "hammerRoll"
+    },
+    {
+        "name": "Light Orb",
+        "type": "toggle",
+        "img": "images/items/light_orb.png",
+        "codes": "lightOrb"
+    },
+    {
+        "name": "Piko Hammer",
+        "type": "toggle",
+        "img": "images/items/piko_hammer.png",
+        "codes": "pikoHammer"
+    },
+    {
+        "name": "Rabi Slippers",
+        "type": "toggle",
+        "img": "images/items/rabi_slippers.png",
+        "codes": "rabiSlippers"
+    },
+    {
+        "name": "Sliding Powder",
+        "type": "toggle",
+        "img": "images/items/sliding_powder.png",
+        "codes": "slidingPowder"
+    },
+    {
+        "name": "Wall Jump",
+        "type": "toggle",
+        "img": "images/items/wall_jump.png",
+        "codes": "wallJump"
+    },
+    {
+        "name": "Water Orb",
+        "type": "toggle",
+        "img": "images/items/water_orb.png",
+        "codes": "waterOrb"
     }
 ]

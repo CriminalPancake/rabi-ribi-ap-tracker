@@ -1,15 +1,62 @@
-//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
 [
     {
-        "name": "map1",
+        "name": "easternHighlands",
         "location_size": 48,
         "location_border_thickness": 4,
-        "img": "images/maps/map.png"
+        "img": "images/maps/eastern_highlands.png"
     },
     {
-        "name": "map2",
+        "name": "islandCore",
         "location_size": 48,
         "location_border_thickness": 4,
-        "img": "images/maps/map_2.png"
+        "img": "images/maps/island_core.png"
+    },
+    {
+        "name": "northernTundra",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/northern_tundra.png"
+    },
+    {
+        "name": "plurkwood",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/plurkwood.png"
+    },
+    {
+        "name": "rabiRabiTown",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/rabi_rabi_town.png"
+    },
+    {
+        "name": "southernWoodland",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/southernWoodland.png"
+    },
+    {
+        "name": "subterraneanArea",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/subterranean_area.png"
+    },
+    {
+        "name": "systemInterior",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/system_interior.png"
+    },
+    {
+        "name": "warpDestination",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/warp_destination.png"
+    },
+    {
+        "name": "westernCoast",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/western_coast.png"
     }
 ]
