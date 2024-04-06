@@ -33,7 +33,7 @@
         "name": "southernWoodland",
         "location_size": 48,
         "location_border_thickness": 4,
-        "img": "images/maps/southernWoodland.png"
+        "img": "images/maps/southern_woodland.png"
     },
     {
         "name": "subterraneanArea",

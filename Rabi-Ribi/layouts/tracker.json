@@ -26,20 +26,92 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Map 1",
+                            "title": "Southern Woodland",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "map1"
+                                    "southernWoodland"
                                 ]
                             }
                         },
                         {
-                            "title": "Map 2",
+                            "title": "Western Coast",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "map2"
+                                    "westernCoast"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Island Core",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "islandCore"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Northern Tundra",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "northernTundra"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Eastern Highlands",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "easternHighlands"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Rabi Rabi Town",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "rabiRabiTown"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Plurkwood",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "plurkwood"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Subterranean Area",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "subterraneanArea"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Warp Destination",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "warpDestination"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "System Interior",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "systemInterior"
                                 ]
                             }
                         }
@@ -77,20 +149,92 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Map 1",
+                            "title": "Southern Woodland",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "map1"
+                                    "southernWoodland"
                                 ]
                             }
                         },
                         {
-                            "title": "Map 2",
+                            "title": "Western Coast",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "map2"
+                                    "westernCoast"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Island Core",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "islandCore"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Northern Tundra",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "northernTundra"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Eastern Highlands",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "easternHighlands"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Rabi Rabi Town",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "rabiRabiTown"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Plurkwood",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "plurkwood"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Subterranean Area",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "subterraneanArea"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Warp Destination",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "warpDestination"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "System Interior",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "systemInterior"
                                 ]
                             }
                         }
