@@ -95,29 +95,11 @@
                             }
                         },
                         {
-                            "title": "Plurkwood",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "plurkwood"
-                                ]
-                            }
-                        },
-                        {
                             "title": "Subterranean Area",
                             "content": {
                                 "type": "map",
                                 "maps": [
                                     "subterraneanArea"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Warp Destination",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "warpDestination"
                                 ]
                             }
                         },

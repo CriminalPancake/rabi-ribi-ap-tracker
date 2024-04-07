@@ -13,12 +13,6 @@
         "codes": "airJump"
     },
     {
-        "name": "Bunny Strike",
-        "type": "toggle",
-        "img": "images/items/bunny_strike.png",
-        "codes": "bunnyStrike"
-    },
-    {
         "name": "Bunny Whirl",
         "type": "toggle",
         "img": "images/items/bunny_whirl.png",

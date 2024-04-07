@@ -1,15 +1,43 @@
--- put logic functions here using the Lua API: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#lua-interface
--- don't be afraid to use custom logic functions. it will make many things a lot easier to maintain, for example by adding logging.
--- to see how this function gets called, check: locations/locations.json
--- example:
-function has_more_then_n_consumable(n)
-    local count = Tracker:ProviderCountForCode('consumable')
-    local val = (count > tonumber(n))
-    if ENABLE_DEBUG_LOG then
-        print(string.format("called has_more_then_n_consumable: count: %s, n: %s, val: %s", count, n, val))
-    end
-    if val then
-        return 1 -- 1 => access is in logic
-    end
-    return 0 -- 0 => no access
+function explosives()
+    return (has("carrotBomb") or has("carrotShooter"))
+end
+
+function darkness()
+    return (has("noLightOrb") or has("lightOrb"))
+end
+
+function underwater()
+    return (has("noWaterOrb") or has("waterOrb"))
+end
+
+function downDrillSemisolidClip()
+    return (has("pikoHammer") and has("semisolidClip"))
+end
+
+function bunnyWhirl()
+    return (has("bunnyWhirl") and has("pikoHammer"))
+end
+
+function airDash()
+    return (has("airDash") and has("pikoHammer"))
+end
+
+function bunnyStrike()
+    return (has("slidingPowder") and has("pikoHammer"))
+end
+
+function whirlBonk()
+    return (bunnyWhirl() and has("knowledgeIntermediate") and has("tricksHard"))
+end
+
+function hammerRoll()
+    return (has("hammerRoll") and has("bunnyWhirl") and has("pikoHammer"))
+end
+
+function hammerRollZip()
+    return (hammerRoll() and has("zips"))
+end
+
+function slideZip()
+    return (has("slidingPowder") and has("zips"))
 end

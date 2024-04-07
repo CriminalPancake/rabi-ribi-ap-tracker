@@ -1,0 +1,1270 @@
+
+
+"name": "NATURE_ORB",
+"from_location": "FOREST_NIGHT_WEST",
+"access_rules": ["$darkness"],
+
+
+
+"name": "PACK_UP_FOREST_NIGHT",
+"from_location": "FOREST_NIGHT_WEST",
+"access_rules": ["$explosives,$darkness","blockClip,$darkness"],
+
+
+
+"name": "HP_UP_WEST_SPECTRAL",
+"from_location": "SPECTRAL_UPPER",
+"access_rules": [],
+
+
+
+"name": "ATK_UP_FOREST_NIGHT",
+"from_location": "FOREST_NIGHT_ATK_UP_ROOM",
+"access_rules": ["$explosives,$darkness","rabiSlippers,airJump,wallJump"],
+
+
+
+"name": "PACK_UP_SPECTRAL",
+"from_location": "SPECTRAL_UPPER",
+"access_rules": [],
+
+
+
+"name": "MP_UP_CAVE",
+"from_location": "CAVE_ENTRANCE",
+"access_rules": ["slidingPowder"],
+
+
+
+"name": "HP_UP_CAVE",
+"from_location": "CAVE_ENTRANCE",
+"access_rules": [],
+
+
+
+"name": "TOXIC_STRIKE",
+"from_location": "FOREST_NIGHT_TOXIC_STRIKE",
+"access_rules": [],
+
+
+
+"name": "pikoHammer",
+"from_location": "FOREST_START",
+"access_rules": [],
+
+
+
+"name": "MP_UP_FOREST_CAVE",
+"from_location": "CAVE_COCOA",
+"access_rules": ["slidingPowder"],
+
+
+
+"name": "TOUGH_SKIN",
+"from_location": "SPECTRAL_WEST",
+"access_rules": [],
+
+
+
+"name": "REGEN_UP_CAVE",
+"from_location": "CAVE_COCOA",
+"access_rules": ["$explosives,slidingPowder","knowledgeIntermediate,slidingPowder"],
+
+
+
+"name": "HP_UP_NORTH_FOREST",
+"from_location": "FOREST_NORTH_HP_UP_ROOM",
+"access_rules": ["$explosives,slidingPowder","$downDrillSemisolidClip"],
+
+
+
+"name": "wallJump",
+"from_location": "SPECTRAL_MID",
+"access_rules": ["rabiSlippers,airJump,slidingPowder"],
+
+
+
+"name": "REGEN_UP_MID_FOREST",
+"from_location": "FOREST_START",
+"access_rules": 
+[
+    "knowledgeIntermediate,tricksHard,wallJump",
+    "$whirlBonk",
+    "airJump,rabiSlippers"
+],
+
+
+
+"name": "MP_UP_MID_SPECTRAL",
+"from_location": "SPECTRAL_UPPER",
+"access_rules": [],
+
+
+
+"name": "HP_UP_MID_SPECTRAL",
+"from_location": "SPECTRAL_UPPER",
+"access_rules": [],
+
+
+
+"name": "carrotBomb",
+"from_location": "FOREST_COCOA_ROOM",
+"access_rules": [],
+
+
+
+"name": "DEF_TRADE",
+"from_location": "FOREST_START",
+"access_rules": ["$explosives"],
+
+
+
+"name": "LIGHT_ORB",
+"from_location": "FOREST_LIGHT_ORB_ROOM",
+"access_rules": 
+[
+    "$bunnyWhirl,$explosives,slidingPowder",
+    "$explosives,slidingPowder,airJump",
+    "$explosives,slidingPowder,$airDash"
+],
+
+
+
+"name": "HP_UP_FOREST_POST_COCOA",
+"from_location": "FOREST_START",
+"access_rules": ["pikoHammer","$explosives"],
+
+
+
+"name": "CHARGE_RING",
+"from_location": "CAVE_COCOA",
+"access_rules": [],
+
+
+
+"name": "ARM_STRENGTH",
+"from_location": "SPECTRAL_WARP",
+"access_rules": ["airJump","knowledgeIntermediate","$airDash","knowledgeAdvanced,tricksVeryHard"],
+
+
+
+"name": "REGEN_UP_EAST_FOREST",
+"from_location": "FOREST_UPPER_EAST",
+"access_rules": [],
+
+
+
+"name": "MANA_WAGER",
+"from_location": "FOREST_UPPER_EAST",
+"access_rules": 
+[
+    "$whirlBonk","airJump,rabiSlippers",
+    "knowledgeIntermediate,tricksHard","$airDash,rabiSlippers",
+    "knowledgeIntermediate,tricksHard",
+    "knowledgeAdvanced,tricksVeryHard,$airDash",
+    "knowledgeAdvanced,tricksStupid,slidingPowder,rabiSlippers"
+],
+
+
+
+"name": "MP_UP_EAST_FOREST",
+"from_location": "FOREST_START",
+"access_rules": [],
+
+
+
+"name": "PACK_UP_EAST_FOREST",
+"from_location": "FOREST_START",
+"access_rules": ["pikoHammer","$explosives,slidingPowder"],
+
+
+
+"name": "MP_UP_CICINI",
+"from_location": "SPECTRAL_WARP",
+"access_rules": 
+[
+    "airJump","knowledgeIntermediate,tricksHard",
+    "knowledgeIntermediate,tricksHard,wallJump",
+    "$airDash","rabiSlippers,knowledgeAdvanced,tricksVeryHard",
+    "knowledgeAdvanced,tricksHard","knowledgeAdvanced,tricksStupid"
+],
+
+
+
+"name": "MP_UP_NORTHEAST_FOREST",
+"from_location": "FOREST_UPPER_EAST",
+"access_rules": ["$explosives,slidingPowder"],
+
+
+
+"name": "SURVIVAL",
+"from_location": "GRAVEYARD_UPPER",
+"access_rules": [],
+
+
+
+"name": "HEALTH_WAGER",
+"from_location": "GRAVEYARD_UPPER",
+"access_rules": 
+[
+    "airJump,$airDash","airJump,knowledgeIntermediate,tricksHard",
+    "$airDash,knowledgeAdvanced,tricksVeryHard","knowledgeIntermediate,tricksHard,wallJump",
+    "$airDash,knowledgeAdvanced,tricksStupid","knowledgeAdvanced,tricksVeryHard,$bunnyStrike"
+],
+
+
+
+
+"name": "ATK_UP_BEACH_CAVE",
+"from_location": "BEACH_$underwater_ENTRANCE",
+"access_rules": [],
+
+
+
+"name": "MP_UP_GRAVEYARD_WARP",
+"from_location": "GRAVEYARD_MAIN",
+"access_rules": ["$explosives"],
+
+
+
+"name": "HP_UP_GRAVEYARD",
+"from_location": "GRAVEYARD_TOP_OF_BRIDGE",
+"access_rules": [],
+
+
+
+"name": "SUNNY_BEAM",
+"from_location": "BEACH_MAIN",
+"access_rules": [],
+
+
+
+"name": "MP_UP_UPPER_GRAVEYARD",
+"from_location": "GRAVEYARD_UPPER",
+"access_rules": 
+[
+    "airJump","$airDash","knowledgeIntermediate,tricksHard,",
+    "$bunnyStrike,carrotBomb","blockClip"
+],
+
+
+
+"name": "AUTO_EARRINGS",
+"from_location": "GRAVEYARD_MAIN",
+"access_rules": [],
+
+
+
+"name": "HEALTH_PLUS",
+"from_location": "BEACH_MAIN",
+"access_rules": [],
+
+
+
+"name": "MP_UP_PYRAMID_DARK_ROOM",
+"from_location": "PYRAMID_SOUTHWEST_ROOM",
+"access_rules": ["$darkness"],
+
+
+
+"name": "CRISIS_BOOST",
+"from_location": "GRAVEYARD_MAIN",
+"access_rules": 
+[
+    "airJump,rabiSlippers","knowledgeIntermediate,tricksHard",
+    "$airDash,rabiSlippers","knowledgeIntermediate,tricksHard"
+],
+
+
+
+"name": "ATK_UP_GRAVEYARD",
+"from_location": "GRAVEYARD_KOTRI",
+"access_rules": ["$explosives"],
+
+
+
+"name": "HP_UP_INNER_PYRAMID",
+"from_location": "PYRAMID_MAIN",
+"access_rules": ["$explosives"],
+
+
+
+"name": "HP_UP_BEACH",
+"from_location": "BEACH_MAIN",
+"access_rules": ["$explosives"],
+
+
+
+"name": "ATK_UP_PYRAMID",
+"from_location": "PYRAMID_MAIN",
+"access_rules": ["carrotBomb"],
+
+
+
+"name": "PACK_UP_PYRAMID",
+"from_location": "PYRAMID_MAIN",
+"access_rules": ["$explosives"],
+
+
+
+"name": "ARMORED",
+"from_location": "PYRAMID_MAIN",
+"access_rules": [
+"[$explosives]"
+],
+
+
+
+
+"name": "CHAOS_ROD",
+"from_location": "PYRAMID_CHAOS_ROD_ROOM",
+"access_rules": [],
+
+
+
+"name": "PACK_UP_BEACH",
+"from_location": "BEACH_MAIN",
+"access_rules": ["$explosives","blockClip"],
+
+
+
+"name": "TOP_FORM",
+"from_location": "SKY_ISLAND_UPPER",
+"access_rules": [],
+
+
+
+"name": "HP_UP_PYRAMID_ENTRANCE",
+"from_location": "BEACH_MAIN",
+"access_rules": ["carrotBomb","carrotShooter,knowledgeAdvanced,tricksHard"],
+
+
+
+"name": "MP_UP_PYRAMID_BOMBBLOCK_ROOM",
+"from_location": "PYRAMID_MAIN",
+"access_rules": [],
+
+
+
+"name": "$airDash",
+"from_location": "SKY_ISLAND_MAIN",
+"access_rules": ["$explosives,slidingPowder"],
+
+
+
+"name": "REGEN_UP_PYRAMID",
+"from_location": "PYRAMID_WARP_ROOM",
+"access_rules": [],
+
+
+
+"name": "PURE_LOVE",
+"from_location": "SKY_ISLAND_UPPER",
+"access_rules": ["$explosives,slidingPowder"],
+
+
+
+"name": "MP_UP_BEACH_TUNNEL",
+"from_location": "BEACH_MAIN",
+"access_rules": [],
+
+
+
+"name": "HOURGLASS",
+"from_location": "PYRAMID_HOURGLASS_ROOM",
+"access_rules": [],
+
+
+
+"name": "HP_UP_SKY_ISLAND",
+"from_location": "SKY_ISLAND_MAIN",
+"access_rules": ["$explosives"],
+
+
+
+"name": "PACK_UP_SKY_ISLAND",
+"from_location": "SKY_ISLAND_UPPER",
+"access_rules": ["$explosives"],
+
+
+
+"name": "REGEN_UP_SKY_ISLAND",
+"from_location": "SKY_ISLAND_MAIN",
+"access_rules": ["$explosives"],
+
+
+
+"name": "MP_UP_BEACH_PILLAR",
+"from_location": "BEACH_FOREST_ENTRANCE",
+"access_rules": [],
+
+
+
+"name": "DEF_GROW",
+"from_location": "PARK_KOTRI",
+"access_rules": [],
+
+
+
+"name": "ATK_UP_PARK",
+"from_location": "PARK_UPPER",
+"access_rules": ["$explosives"],
+
+
+
+"name": "ATK_TRADE",
+"from_location": "PARK_MAIN",
+"access_rules": ["$explosives"],
+
+
+
+"name": "HP_UP_PARK",
+"from_location": "PARK_MAIN",
+"access_rules": ["$explosives"],
+
+
+
+"name": "rabiSlippers",
+"from_location": "PARK_MAIN",
+"access_rules": [],
+
+
+
+"name": "REGEN_UP_PARK",
+"from_location": "PARK_UPPER",
+"access_rules": ["slidingPowder","$hammerRollZip"],
+
+
+
+"name": "HEALTH_SURGE",
+"from_location": "SKY_BRIDGE_HEALTH_SURGE_ROOM",
+"access_rules": [],
+
+
+
+"name": "MP_UP_SKY_BRIDGE",
+"from_location": "SKY_BRIDGE_MAIN",
+"access_rules": ["$explosives,slidingPowder"],
+
+
+
+"name": "MP_UP_UPRPRC_HQ",
+"from_location": "UPRPRC_BASE",
+"access_rules": [],
+
+
+
+"name": "MP_UP_PARK",
+"from_location": "PARK_MAIN",
+"access_rules": 
+[
+    "rabiSlippers","slidingPowder","$airDash",
+    "airJump","knowledgeIntermediate","knowledgeAdvanced,tricksVeryHard"
+],
+
+
+
+"name": "HEX_CANCEL",
+"from_location": "SKY_BRIDGE_SLIDE_AREA",
+"access_rules": [],
+
+
+
+"name": "HP_UP_SKY_BRIDGE",
+"from_location": "SKY_BRIDGE_MAIN",
+"access_rules": [],
+
+
+
+"name": "PACK_UP_SKY_BRIDGE",
+"from_location": "SKY_BRIDGE_SLIDE_AREA",
+"access_rules": [],
+
+
+
+"name": "REGEN_UP_SKY_BRIDGE",
+"from_location": "SKY_BRIDGE_REGEN_UP_LEDGE",
+"access_rules": [],
+
+
+
+"name": "LUCKY_SEVEN",
+"from_location": "SKY_BRIDGE_MAIN",
+"access_rules": [],
+
+
+
+"name": "ATK_UP_VANILLA",
+"from_location": "SKY_BRIDGE_EAST",
+"access_rules": ["carrotBomb","carrotShooter,knowledgeAdvanced,tricksHard,slidingPowder"],
+
+
+
+"name": "HAMMER_WAVE",
+"from_location": "RAVINE_UPPER_WEST",
+"access_rules": [],
+
+
+
+"name": "ATK_UP_WEST_RAVINE",
+"from_location": "RAVINE_UPPER_WEST",
+"access_rules": [],
+
+
+
+"name": "HP_UP_SOUTH_RAVINE",
+"from_location": "RAVINE_LOWER",
+"access_rules": ["$explosives,slidingPowder","$hammerRollZip"],
+
+
+
+"name": "ATK_UP_NORTH_RAVINE",
+"from_location": "RAVINE_NORTH_ATTACK_UP_ROOM",
+"access_rules": ["$explosives","blockClip"],
+
+
+
+"name": "HP_UP_MID_RAVINE",
+"from_location": "RAVINE_UPPER_EAST",
+"access_rules": ["$explosives"],
+
+
+
+"name": "MP_UP_RAVINE",
+"from_location": "RAVINE_UPPER_EAST",
+"access_rules": ["$explosives"],
+
+
+
+"name": "REGEN_UP_RAVINE",
+"from_location": "RAVINE_LOWER",
+"access_rules": ["$explosives","knowledgeAdvanced,tricksStupid,$slideZip"],
+
+
+
+"name": "MANA_SURGE",
+"from_location": "RAVINE_MANA_SURGE",
+"access_rules": [],
+
+
+
+"name": "HP_UP_PALACE",
+"from_location": "PALACE_LEVEL_5",
+"access_rules": [],
+
+
+
+"name": "waterOrb",
+"from_location": "PALACE_LEVEL_5",
+"access_rules": [],
+
+
+
+"name": "HP_UP_WEST_AQUARIUM",
+"from_location": "AQUARIUM_WEST",
+"access_rules": ["$darkness,$explosives"],
+
+
+
+"name": "MANA_PLUS",
+"from_location": "AQUARIUM_WEST",
+"access_rules": ["$darkness"],
+
+
+
+"name": "ATK_UP_PALACE",
+"from_location": "PALACE_ATTACK_UP_TUNNEL",
+"access_rules": ["fireOrb"],
+
+
+
+"name": "ATK_UP_SNOWLAND",
+"from_location": "SNOWLAND_WEST",
+"access_rules": ["$explosives,slidingPowder","$hammerRoll","blockClip"],
+
+
+
+"name": "REGEN_UP_PALACE",
+"from_location": "PALACE_LEVEL_3",
+"access_rules": 
+[
+    "$darkness,knowledgeIntermediate","$whirlBonk","$airDash",
+    "airJump","rabiSlippers,knowledgeIntermediate,tricksHard",
+    "knowledgeAdvanced,tricksStupid","knowledgeAdvanced,tricksStupid"
+],
+
+
+
+"name": "STAMINA_PLUS",
+"from_location": "PALACE_WARP_LEVEL_1_2",
+"access_rules": ["$explosives"],
+
+
+
+"name": "MP_UP_PALACE",
+"from_location": "PALACE_WARP_LEVEL_1_2",
+"access_rules": [],
+
+
+
+"name": "SELF_DEFENSE",
+"from_location": "SNOWLAND_WEST",
+"access_rules": ["slidingPowder,$underwater"],
+
+
+
+"name": "HP_UP_UPPER_AQUARIUM",
+"from_location": "AQUARIUM_WATER_TOWER",
+"access_rules": [],
+
+
+
+"name": "GOLD_CARROT",
+"from_location": "ICY_SUMMIT_UPPER",
+"access_rules": 
+[
+    "airJump","wallJump,$whirlBonk","$airDash,tricksHard",
+    "knowledgeIntermediate","rabiSlippers,slidingPowder",
+    "knowledgeIntermediate,tricksHard","knowledgeAdvanced,tricksStupid"
+],
+
+
+
+"name": "ATK_UP_UPPER_AQUARIUM",
+"from_location": "AQUARIUM_WATER_TOWER",
+"access_rules": [],
+
+
+
+"name": "PACK_UP_ICY_SUMMIT",
+"from_location": "ICY_SUMMIT_UPPER",
+"access_rules": ["airJump","$airDash","$whirlBonk,knowledgeAdvanced,tricksVeryHard"],
+
+
+
+"name": "ATK_UP_ICY_SUMMIT",
+"from_location": "ICY_SUMMIT_UPPER",
+"access_rules": ["$explosives"],
+
+
+
+"name": "ATK_UP_MID_AQUARIUM",
+"from_location": "AQUARIUM_MID",
+"access_rules": [],
+
+
+
+"name": "MP_UP_ICY_SUMMIT",
+"from_location": "ICY_SUMMIT_MAIN",
+"access_rules": 
+[
+    "knowledgeAdvanced,tricksStupid","rabiSlippers","airJump","wallJump",
+    "$whirlBonk","knowledgeIntermediate,tricksVeryHard",
+    "slidingPowder","$hammerRollZip"
+],
+
+
+
+"name": "MP_UP_SNOWLAND",
+"from_location": "SNOWLAND_MID",
+"access_rules": ["$explosives"],
+
+
+
+"name": "QUICK_BARRETTE",
+"from_location": "SNOWLAND_LAKE",
+"access_rules": [],
+
+
+
+"name": "HP_UP_ICY_SUMMIT",
+"from_location": "ICY_SUMMIT_UPPER",
+"access_rules": [],
+
+
+
+"name": "SUPER_CARROT",
+"from_location": "ICY_SUMMIT_UPPER",
+"access_rules": ["$explosives"],
+
+
+
+"name": "REGEN_UP_SNOWLAND_WATER",
+"from_location": "SNOWLAND_LAKE",
+"access_rules": [],
+
+
+
+"name": "MP_UP_AQUARIUM",
+"from_location": "AQUARIUM_BOMB_WALLED_AREA",
+"access_rules": [],
+
+
+
+"name": "HP_UP_SNOWLAND",
+"from_location": "SNOWLAND_EAST",
+"access_rules": ["$explosives"],
+
+
+
+"name": "CARROT_BOOST",
+"from_location": "SNOWLAND_LAKE",
+"access_rules": [],
+
+
+
+"name": "REGEN_UP_AQUARIUM",
+"from_location": "AQUARIUM_ORB_SLIDE_MAZE",
+"access_rules": ["slidingPowder"],
+
+
+
+"name": "PACK_UP_AQUARIUM",
+"from_location": "AQUARIUM_BOMB_WALLED_AREA",
+"access_rules": [],
+
+
+
+"name": "REGEN_UP_NORTHWEST_RIVERBANK",
+"from_location": "RIVERBANK_LEVEL3",
+"access_rules": [],
+
+
+
+"name": "PACK_UP_RIVERBANK",
+"from_location": "RIVERBANK_PACK_UP_ROOM",
+"access_rules": [],
+
+
+
+"name": "MP_UP_SOUTHWEST_RIVERBANK",
+"from_location": "RIVERBANK_UNDERGROUND",
+"access_rules": ["$explosives"],
+
+
+
+"name": "ATK_GROW",
+"from_location": "RIVERBANK_LEVEL2",
+"access_rules": [],
+
+
+
+"name": "REGEN_UP_SOUTH_RIVERBANK",
+"from_location": "RIVERBANK_UNDERGROUND",
+"access_rules": ["$darkness,$underwater,$explosives"],
+
+
+
+"name": "ATK_UP_RIVERBANK_PIT",
+"from_location": "RIVERBANK_MAIN_LEVEL1",
+"access_rules": [],
+
+
+
+"name": "$bunnyWhirl",
+"from_location": "RIVERBANK_LOWER_LEFT",
+"access_rules": ["pikoHammer","carrotShooter,knowledgeAdvanced,tricksHard","$slideZip"],
+
+
+
+"name": "EXPLODE_SHOT",
+"from_location": "RIVERBANK_LEVEL3",
+"access_rules": [],
+
+
+
+"name": "MP_UP_MID_RIVERBANK",
+"from_location": "RIVERBANK_MAIN_LEVEL1",
+"access_rules": ["$explosives"],
+
+
+
+"name": "ATK_UP_EAST_RIVERBANK",
+"from_location": "RIVERBANK_MAIN_LEVEL1",
+"access_rules": ["$downDrillSemisolidClip","$explosives,slidingPowder"],
+
+
+
+"name": "SPIKE_BARRIER",
+"from_location": "EVERNIGHT_SPIKE_BARRIER_ROOM",
+"access_rules": [],
+
+
+
+"name": "FRAME_CANCEL",
+"from_location": "RIVERBANK_LEVEL3",
+"access_rules": [" $explosives,slidingPowder","$hammerRollZip"],
+
+
+
+"name": "HP_UP_LAB_SLIDE_TUNNEL",
+"from_location": "LAB_WEST",
+"access_rules": ["slidingPowder"],
+
+
+
+"name": "MP_UP_LAB",
+"from_location": "LAB_WEST",
+"access_rules": ["slidingPowder"],
+
+
+
+"name": "HP_UP_RIVERBANK",
+"from_location": "RIVERBANK_LOWER_HEALTH_UP_ROOM",
+"access_rules": ["$explosives","$bunnyWhirl","$airDash","blockClip","pikoHammer"],
+
+
+
+"name": "MP_UP_EVERNIGHT",
+"from_location": "EVERNIGHT_WARP",
+"access_rules": 
+[
+    "$darkness,slidingPowder,airJump,rabiSlippers",
+    "$airDash","knowledgeIntermediate,tricksHard","$whirlBonk","rabiSlippers,$airDash",
+    "$bunnyStrike,$airDash,knowledgeIntermediate,tricksHard","knowledgeAdvanced,tricksStupid"
+],
+
+
+
+"name": "HP_UP_EVERNIGHT",
+"from_location": "EVERNIGHT_NORTHWEST",
+"access_rules": ["$explosives"],
+
+
+
+"name": "HP_UP_LAB_PIT",
+"from_location": "LAB_MID",
+"access_rules": ["carrotBomb"],
+
+
+
+"name": "slidingPowder",
+"from_location": "LAB_slidingPowder_ROOM",
+"access_rules": [],
+
+
+
+"name": "ATK_UP_EVERNIGHT_UPRPRC",
+"from_location": "EVERNIGHT_NORTHWEST",
+"access_rules": ["slidingPowder,$explosives","$downDrillSemisolidClip"],
+
+
+
+"name": "CASHBACK",
+"from_location": "EVERNIGHT_LOWER",
+"access_rules": [],
+
+
+
+"name": "PLUS_NECKLACE",
+"from_location": "EVERNIGHT_WARP",
+"access_rules": [],
+
+
+
+"name": "WEAKEN",
+"from_location": "LAB_ENTRANCE",
+"access_rules": [],
+
+
+
+"name": "ATK_UP_LAB_COMPUTER",
+"from_location": "LAB_EAST",
+"access_rules": ["$explosives","blockClip"],
+
+
+
+"name": "PACK_UP_SOUTH_EVERNIGHT",
+"from_location": "EVERNIGHT_LOWER",
+"access_rules": ["$explosives"],
+
+
+
+"name": "PACK_UP_NORTH_EVERNIGHT",
+"from_location": "EVERNIGHT_NORTHWEST",
+"access_rules": 
+[
+    "$airDash","airJump","knowledgeIntermediate",
+    "knowledgeAdvanced,tricksVeryHard,rabiSlippers",
+    "knowledgeAdvanced,tricksStupid,wallJump,"
+],
+
+
+
+"name": "REGEN_UP_EVERNIGHT",
+"from_location": "EVERNIGHT_SAYA",
+"access_rules": ["$explosives"],
+
+
+
+"name": "ATK_UP_EVERNIGHT",
+"from_location": "EVERNIGHT_CORRIDOR_BELOW_SAYA",
+"access_rules": [],
+
+
+
+"name": "ATK_UP_EAST_LAB",
+"from_location": "LAB_EAST",
+"access_rules": 
+[
+    "$explosives,airJump","$airDash","rabiSlippers,knowledgeAdvanced,tricksVeryHard",
+    "rabiSlippers,knowledgeIntermediate","$explosives,$hammerRollZip"
+],
+
+
+
+
+"name": "PACK_UP_LAB",
+"from_location": "LAB_EAST_PACK_UP_ROOM",
+"access_rules": [],
+
+
+
+"name": "$hammerRoll",
+"from_location": "EVERNIGHT_EAST_OF_WARP",
+"access_rules": ["$bunnyWhirl"],
+
+
+
+"name": "HP_UP_VOLCANIC",
+"from_location": "VOLCANIC_BEACH_ENTRANCE",
+"access_rules": ["$explosives"],
+
+
+
+"name": "fireOrb",
+"from_location": "VOLCANIC_MAIN",
+"access_rules": ["fireOrb","carrotBomb","carrotShooter"],
+
+
+
+"name": "PACK_UP_VOLCANIC",
+"from_location": "VOLCANIC_MAIN",
+"access_rules": ["$explosives"],
+
+
+
+"name": "REGEN_UP_CYBERSPACE",
+"from_location": "SYSTEM_INTERIOR_MAIN",
+"access_rules": 
+[
+    "carrotBomb","carrotShooter,knowledgeAdvanced,tricksHard,airJump",
+    "$airDash","knowledgeIntermediate","knowledgeAdvanced,tricksStupid"
+],
+
+
+
+"name": "PACK_UP_CYBERSPACE",
+"from_location": "SYSTEM_INTERIOR_MAIN",
+"access_rules": [],
+
+
+
+"name": "airJump",
+"from_location": "SYSTEM_INTERIOR_MAIN",
+"access_rules": [],
+
+
+
+"name": "HP_UP_CYBERSPACE",
+"from_location": "SYSTEM_INTERIOR_MAIN",
+"access_rules": 
+[
+    "slidingPowder,carrotBomb","knowledgeIntermediate,tricksHard",
+    "knowledgeAdvanced,tricksStupid,$slideZip,$hammerRollZip,airJump,rabiSlippers",
+    "$airDash,knowledgeIntermediate,tricksHard","$airDash,knowledgeAdvanced,tricksVeryHard",
+    "wallJump,rabiSlippers,knowledgeAdvanced,tricksVeryHard",
+    "knowledgeAdvanced,tricksStupid","$whirlBonk,knowledgeIntermediate,tricksVeryHard"
+],
+
+
+
+"name": "ATK_UP_CYBERSPACE",
+"from_location": "SYSTEM_INTERIOR_MAIN",
+"access_rules": ["carrotBomb","carrotShooter,knowledgeAdvanced,tricksHard"],
+
+
+
+"name": "MP_UP_CYBERSPACE",
+"from_location": "SYSTEM_INTERIOR_MAIN",
+"access_rules": [],
+
+
+
+"name": "EGG_CAVE_COCOA",
+"from_location": "CAVE_COCOA",
+"access_rules": ["knowledgeAdvanced,tricksStupid","$explosives"],
+
+
+
+"name": "EGG_CAVE_UNDER_HAMMER",
+"from_location": "CAVE_ENTRANCE",
+"access_rules": [],
+
+
+
+"name": "EGG_FOREST_NE_LEDGE",
+"from_location": "FOREST_UPPER_EAST_EGG_LEDGE",
+"access_rules": [],
+
+
+
+"name": "EGG_FOREST_NE_PEDESTAL",
+"from_location": "FOREST_UPPER_EAST",
+"access_rules": [],
+
+
+
+"name": "EGG_FORESTNIGHT_ARURAUNE",
+"from_location": "FOREST_NIGHT_WEST",
+"access_rules": ["$darkness,$explosives"],
+
+
+
+"name": "EGG_FORESTNIGHT_EAST",
+"from_location": "FOREST_NIGHT_NORTH_EAST",
+"access_rules": ["$darkness,$explosives"],
+
+
+
+"name": "EGG_SPECTRAL_SLIDE",
+"from_location": "SPECTRAL_WARP",
+"access_rules": 
+[
+    "slidingPowder,airJump","knowledgeIntermediate,tricksHard",
+    "knowledgeIntermediate,tricksHard,wallJump","$airDash",
+    "rabiSlippers,knowledgeAdvanced,tricksVeryHard","knowledgeAdvanced,tricksHard",
+    "slidingPowder","knowledgeAdvanced,tricksStupid"
+],
+
+
+
+"name": "EGG_SPECTRAL_WEST",
+"from_location": "SPECTRAL_WEST_EGG_ROOM",
+"access_rules": [],
+
+
+
+"name": "EGG_BEACH_TO_AQUARIUM",
+"from_location": "BEACH_$underwater_ENTRANCE",
+"access_rules": [],
+
+
+
+"name": "EGG_GRAVEYARD_NEAR_LIBRARY",
+"from_location": "GRAVEYARD_UPPER",
+"access_rules": 
+[
+    "airJump","$airDash","knowledgeIntermediate",
+    "slidingPowder,rabiSlippers",
+    "knowledgeAdvanced,tricksVeryHard","knowledgeAdvanced,tricksStupid"
+],
+
+
+
+"name": "EGG_PYRAMID_LOWER",
+"from_location": "PYRAMID_LOWER",
+"access_rules": ["$explosives"],
+
+
+
+"name": "EGG_PYRAMID_BEACH",
+"from_location": "BEACH_MAIN",
+"access_rules": ["knowledgeAdvanced,tricksStupid,","$explosives","airJump","$airDash"],
+
+
+
+"name": "EGG_SKY_TOWN",
+"from_location": "SKY_ISLAND_MAIN",
+"access_rules": ["$explosives"],
+
+
+
+"name": "EGG_PARK_SPIKES",
+"from_location": "PARK_MAIN",
+"access_rules": ["$explosives"],
+
+
+
+"name": "EGG_PARK_GREEN_KOTRI",
+"from_location": "PARK_KOTRI",
+"access_rules": 
+[
+    "$whirlBonk","airJump","$airDash","rabiSlippers,knowledgeIntermediate",
+    "knowledgeAdvanced,tricksVeryHard,rabiSlippers","slidingPowder"
+],
+
+
+
+"name": "EGG_UPRPRC_BASE",
+"from_location": "UPRPRC_BASE",
+"access_rules": ["$explosives"],
+
+
+
+"name": "EGG_SKY_BRIDGE_WARP",
+"from_location": "SKY_BRIDGE_MAIN",
+"access_rules": ["$explosives"],
+
+
+
+"name": "EGG_SKY_BRIDGE_BY_VANILLA",
+"from_location": "SKY_BRIDGE_EAST",
+"access_rules": ["carrotBomb"],
+
+
+
+"name": "EGG_RAVINE_ABOVE_CHOCOLATE",
+"from_location": "RAVINE_UPPER_WEST",
+"access_rules": [],
+
+
+
+"name": "EGG_RAVINE_MID",
+"from_location": "RAVINE_UPPER_EAST",
+"access_rules": ["$explosives,slidingPowder"],
+
+
+
+"name": "EGG_SNOWLAND_TO_EVERNIGHT",
+"from_location": "SNOWLAND_WEST",
+"access_rules": ["$explosives"],
+
+
+
+"name": "EGG_PALACE_BRIDGE",
+"from_location": "PALACE_LEVEL_4",
+"access_rules": ["$explosives"],
+
+
+
+"name": "EGG_AQUARIUM",
+"from_location": "AQUARIUM_WEST",
+"access_rules": ["$darkness","slidingPowder"],
+
+
+
+"name": "EGG_PALACE_WALL",
+"from_location": "PALACE_LEVEL_3",
+"access_rules": [],
+
+
+
+"name": "EGG_SNOWLAND_WARP",
+"from_location": "SNOWLAND_CHRISTMAS_TREE",
+"access_rules": ["rabiSlippers","airJump","$airDash","knowledgeAdvanced,tricksHard"],
+
+
+
+"name": "EGG_ICY_SUMMIT_NIXIE",
+"from_location": "ICY_SUMMIT_NIXIE",
+"access_rules": [],
+
+
+
+"name": "EGG_ICY_SUMMIT_WARP",
+"from_location": "ICY_SUMMIT_MAIN",
+"access_rules": ["$explosives"],
+
+
+
+"name": "EGG_SNOWLAND_LAKE",
+"from_location": "SNOWLAND_LAKE",
+"access_rules": 
+[
+    "airJump","waterOrb","$whirlBonk","wallJump","wallJump,rabiSlippers",
+    "$airDash,knowledgeIntermediate,tricksHard","knowledgeAdvanced,tricksStupid,"
+],
+
+
+
+"name": "EGG_RIVERBANK_SPIDER_SPIKE",
+"from_location": "RIVERBANK_LEVEL3",
+"access_rules": ["$explosives"],
+
+
+
+"name": "EGG_RIVERBANK_WALL",
+"from_location": "RIVERBANK_LEVEL2",
+"access_rules": 
+[
+    "$whirlBonk","airJump","$airDash","slidingPowder",
+    "knowledgeAdvanced,tricksVeryHard,rabiSlippers","knowledgeAdvanced,tricksStupid,wallJump"
+],
+
+
+
+"name": "EGG_LAB",
+"from_location": "LAB_MID",
+"access_rules": [],
+
+
+
+"name": "EGG_EVERNIGHT_MID",
+"from_location": "EVERNIGHT_SAYA",
+"access_rules": ["$explosives"],
+
+
+
+"name": "EGG_EVERNIGHT_SAYA",
+"from_location": "EVERNIGHT_SAYA",
+"access_rules": 
+[
+    "knowledgeAdvanced,tricksStupid","airJump","knowledgeIntermediate","$whirlBonk",
+    "rabiSlippers,$airDash","$airDash,knowledgeIntermediate,tricksHard","knowledgeAdvanced,tricksVeryHard"
+],
+
+
+
+"name": "EGG_TOWN",
+"from_location": "TOWN_MAIN",
+"access_rules": ["airJump,rabiSlippers","knowledgeIntermediate,tricksHard"],
+
+
+
+"name": "EGG_VOLCANIC_BOMB_BUNNIES",
+"from_location": "VOLCANIC_BEACH_ENTRANCE",
+"access_rules": [],
+
+
+
+"name": "EGG_VOLCANIC_fireOrb",
+"from_location": "VOLCANIC_MAIN",
+"access_rules": ["$explosives"],
+
+
+
+"name": "EGG_VOLCANIC_NE",
+"from_location": "VOLCANIC_MAIN",
+"access_rules": 
+[
+    "airJump","$airDash","$bunnyStrike","knowledgeAdvanced,tricksStupid",
+    "$whirlBonk","slidingPowder,rabiSlippers","wallJump",
+    "knowledgeIntermediate,tricksHard","rabiSlippers,wallJump"
+],
+
+
+
+"name": "EGG_VOLCANIC_BIG_DROP",
+"from_location": "VOLCANIC_MAIN",
+"access_rules": ["knowledgeIntermediate","airJump","$airDash"],
+
+
+
+"name": "EGG_SYSINT1",
+"from_location": "SYSTEM_INTERIOR_MAIN",
+"access_rules": [],
+
+
+
+// Shufflable Gift Items
+
+"name": "_BOOST",
+"from_location": "TOWN_SHOP",
+"access_rules": [],
+
+
+
+"name": "$bunnyStrike",
+"from_location": "TOWN_SHOP",
+"access_rules": ["slidingPowder"],
