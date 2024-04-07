@@ -1,42 +1,35 @@
 [
     {
-        "name": "Example Parent",
+        "name": "Southern Woodland",
         "children": [
             {
                 "name": "Example Location 1",
                 "access_rules": [
-                    //read as: progressive_2 or toggle                    
-                    "progressive_2",
-                    "toggle"                    
+                  
                 ],
                 "sections": [
                     {
                         "name": "Example Section 1",
                         "item_count": 1
-                    },
-                    {
-                        "name": "Example Section 2",
-                        "item_count": 3
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
-                        "x": 1750,
-                        "y": 700
-                    },
-                    {
-                        "map": "map2",
-                        "x": 1000,
-                        "y": 500
+                        "map": "southernWoodland",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
-            },
+            }      
+        ]
+    },
+    {
+        "name": "Western Coast",
+        "children": [
             {
-                "name": "Example Location 2",
+                "name": "Example Location 1",
                 "access_rules": [
-                    //read as: progressive_toggle_2 and has more then 4 consumable
-                    "progressive_toggle_2, $has_more_then_n_consumable|4"                   
+                  
                 ],
                 "sections": [
                     {
@@ -46,12 +39,204 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
-                        "x": 1500,
-                        "y": 400
+                        "map": "westernCoast",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
-            }            
+            }      
+        ]
+    },
+    {
+        "name": "Island Core",
+        "children": [
+            {
+                "name": "Example Location 1",
+                "access_rules": [
+                  
+                ],
+                "sections": [
+                    {
+                        "name": "Example Section 1",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "islandCore",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            }      
+        ]
+    },
+    {
+        "name": "Northern Tundra",
+        "children": [
+            {
+                "name": "Example Location 1",
+                "access_rules": [
+                  
+                ],
+                "sections": [
+                    {
+                        "name": "Example Section 1",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "northernTundra",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            }      
+        ]
+    },
+    {
+        "name": "Eastern Highlands",
+        "children": [
+            {
+                "name": "Example Location 1",
+                "access_rules": [
+                  
+                ],
+                "sections": [
+                    {
+                        "name": "Example Section 1",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "easternHighlands",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            }      
+        ]
+    },
+    {
+        "name": "Rabi Rabi Town",
+        "children": [
+            {
+                "name": "Example Location 1",
+                "access_rules": [
+                  
+                ],
+                "sections": [
+                    {
+                        "name": "Example Section 1",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rabiRabiTown",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            }      
+        ]
+    },
+    {
+        "name": "Plurkwood",
+        "children": [
+            {
+                "name": "Example Location 1",
+                "access_rules": [
+                  
+                ],
+                "sections": [
+                    {
+                        "name": "Example Section 1",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plurkwood",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            }      
+        ]
+    },
+    {
+        "name": "Subterranean Area",
+        "children": [
+            {
+                "name": "Example Location 1",
+                "access_rules": [
+                  
+                ],
+                "sections": [
+                    {
+                        "name": "Example Section 1",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "subterraneanArea",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            }      
+        ]
+    },
+    {
+        "name": "Warp Destination",
+        "children": [
+            {
+                "name": "Example Location 1",
+                "access_rules": [
+                  
+                ],
+                "sections": [
+                    {
+                        "name": "Example Section 1",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "warpDestination",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            }      
+        ]
+    },
+    {
+        "name": "System Interior",
+        "children": [
+            {
+                "name": "Example Location 1",
+                "access_rules": [
+                  
+                ],
+                "sections": [
+                    {
+                        "name": "Example Section 1",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "systemInterior",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            }      
         ]
     }
 ]

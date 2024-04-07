@@ -13,12 +13,6 @@
         "codes": "airJump"
     },
     {
-        "name": "Bunny Amulet",
-        "type": "toggle",
-        "img": "images/items/bunny_amulet.png",
-        "codes": "bunnyAmulet"
-    },
-    {
         "name": "Bunny Strike",
         "type": "toggle",
         "img": "images/items/bunny_strike.png",
@@ -89,5 +83,138 @@
         "type": "toggle",
         "img": "images/items/water_orb.png",
         "codes": "waterOrb"
+    },
+    {
+        "name": "Easter Eggs",
+        "type": "progressive",
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/easter_egg.png",
+                "codes": "easterEgg",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/easter_egg2.png",
+                "codes": "easterEgg2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/easter_egg3.png",
+                "codes": "easterEgg3",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/easter_egg4.png",
+                "codes": "easterEgg4",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/easter_egg5.png",
+                "codes": "easterEgg5",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Open Mode",
+        "type": "toggle",
+        "img": "images/items/open.png",
+        "codes": "openMode"
+    },
+    {
+        "name": "Randomize Hammer",
+        "type": "toggle",
+        "img": "images/items/randomize_hammer.png",
+        "codes": "randomHammer"
+    },
+    {
+        "name": "Knowledge",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Knowledge - Basic",
+                "img": "images/items/knowledge_basic.png",
+                "codes": "knowledgeBasic",
+                "inherit_codes": false
+            },
+            {
+                "name": "Knowledge - Intermediate",
+                "img": "images/items/knowledge_intermediate.png",
+                "codes": "knowledgeIntermediate",
+                "inherit_codes": false
+            },
+            {
+                "name": "Knowledge - Advanced",
+                "img": "images/items/knowledge_advanced.png",
+                "codes": "knowledgeAdvanced",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Trick Difficulty",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Trick Difficulty - Normal",
+                "img": "images/items/tricks_normal.png",
+                "codes": "tricksNormal",
+                "inherit_codes": false
+            },
+            {
+                "name": "Trick Difficulty - Hard",
+                "img": "images/items/tricks_hard.png",
+                "codes": "tricksHard",
+                "inherit_codes": false
+            },
+            {
+                "name": "Trick Difficulty - Very Hard",
+                "img": "images/items/tricks_very_hard.png",
+                "codes": "tricksVeryHard",
+                "inherit_codes": false
+            },
+            {
+                "name": "Trick Difficulty - Stupid",
+                "img": "images/items/tricks_stupid.png",
+                "codes": "tricksStupid",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Block Clips",
+        "type": "toggle",
+        "img": "images/items/block_clip.png",
+        "codes": "blockClip"
+    },
+    {
+        "name": "Semisolid Clips",
+        "type": "toggle",
+        "img": "images/items/semisolid_clip.png",
+        "codes": "semisolidClip"
+    },
+    {
+        "name": "Zips",
+        "type": "toggle",
+        "img": "images/items/zips.png",
+        "codes": "zips"
+    },
+    {
+        "name": "Darkness Without Light Orb",
+        "type": "toggle",
+        "img": "images/items/no_light_orb.png",
+        "codes": "noLightOrb"
+    },
+    {
+        "name": "Underwater Without Water Orb",
+        "type": "toggle",
+        "img": "images/items/no_water_orb.png",
+        "codes": "noWaterOrb"
     }
 ]

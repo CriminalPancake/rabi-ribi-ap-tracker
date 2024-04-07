@@ -11,7 +11,7 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "10, 10",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "rows": [
                             [
@@ -31,9 +31,43 @@
                             [
                                 "pikoHammer",
                                 "carrotBomb",
-                                "bunnyAmulet",
                                 "bunnyStrike",
-                                "carrotShooter"
+                                "carrotShooter",
+                                "easterEgg"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "settings_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "blockClip",
+                                "semisolidClip",
+                                "zips",
+                                "noLightOrb",
+                                "noWaterOrb"           
+                            ],
+                            [
+                                "openMode",
+                                "randomHammer",
+                                "knowledgeBasic",
+                                "tricksNormal"
                             ]
                         ]
                     }
